@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]">
+  <test name="Test1">
+    <classes>
+      <class name="com.selenium.test.Selenium16Maven.TestSaurab"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="com.xyz.test.MyNewClass"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [RegressionSuite] -->

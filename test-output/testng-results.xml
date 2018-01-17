@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56070" started-at="2018-01-17T02:27:58Z" finished-at="2018-01-17T02:28:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56070" started-at="2018-01-17T02:27:58Z" finished-at="2018-01-17T02:28:54Z">
+      <class name="page.object.model.MyMainClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:page.object.model.MyMainClass@34ce8af7]" name="setup" is-config="true" duration-ms="25122" started-at="2018-01-17T07:57:58Z" finished-at="2018-01-17T07:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:1, instance:page.object.model.MyMainClass@34ce8af7]" name="signUp" duration-ms="24805" started-at="2018-01-17T07:58:23Z" finished-at="2018-01-17T07:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="login()[pri:2, instance:page.object.model.MyMainClass@34ce8af7]" name="login" duration-ms="3326" started-at="2018-01-17T07:58:48Z" finished-at="2018-01-17T07:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="product()[pri:3, instance:page.object.model.MyMainClass@34ce8af7]" name="product" duration-ms="1" started-at="2018-01-17T07:58:51Z" finished-at="2018-01-17T07:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:page.object.model.MyMainClass@34ce8af7]" name="teardown" is-config="true" duration-ms="2782" started-at="2018-01-17T07:58:51Z" finished-at="2018-01-17T07:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- page.object.model.MyMainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
