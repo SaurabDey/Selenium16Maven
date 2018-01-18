@@ -27,9 +27,9 @@ public class MyMainClass
 	ExtentReports extent;
 	CommonMethod commonUtil;
 	ReportClass report;
-	String phoneNumber="1010109986";
+	String phoneNumber="8080877777";
 	String passwordtext="test@123";
-	String emailText="saurab12358@gmail.com";
+	String emailText="saurab88888@gmail.com";
 	
 	
 
