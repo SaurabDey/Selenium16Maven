@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46710" started-at="2018-01-17T02:58:52Z" finished-at="2018-01-17T02:59:38Z">
+  <suite name="Suite" duration-ms="55881" started-at="2018-01-18T02:52:46Z" finished-at="2018-01-18T02:53:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46710" started-at="2018-01-17T02:58:52Z" finished-at="2018-01-17T02:59:38Z">
+    <test name="Test1" duration-ms="55881" started-at="2018-01-18T02:52:46Z" finished-at="2018-01-18T02:53:41Z">
       <class name="page.object.model.MyMainClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:page.object.model.MyMainClass@6e8dacdf]" name="setup" is-config="true" duration-ms="16993" started-at="2018-01-17T08:28:52Z" finished-at="2018-01-17T08:29:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:page.object.model.MyMainClass@b684286]" name="setup" is-config="true" duration-ms="21584" started-at="2018-01-18T08:22:46Z" finished-at="2018-01-18T08:23:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signUp()[pri:1, instance:page.object.model.MyMainClass@6e8dacdf]" name="signUp" duration-ms="24638" started-at="2018-01-17T08:29:09Z" finished-at="2018-01-17T08:29:33Z">
+        <test-method status="PASS" signature="signUp()[pri:1, instance:page.object.model.MyMainClass@b684286]" name="signUp" duration-ms="22891" started-at="2018-01-18T08:23:07Z" finished-at="2018-01-18T08:23:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="login()[pri:2, instance:page.object.model.MyMainClass@6e8dacdf]" name="login" duration-ms="3053" started-at="2018-01-17T08:29:33Z" finished-at="2018-01-17T08:29:36Z">
+        <test-method status="PASS" signature="login()[pri:2, instance:page.object.model.MyMainClass@b684286]" name="login" duration-ms="8609" started-at="2018-01-18T08:23:30Z" finished-at="2018-01-18T08:23:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="product()[pri:3, instance:page.object.model.MyMainClass@6e8dacdf]" name="product" duration-ms="1" started-at="2018-01-17T08:29:36Z" finished-at="2018-01-17T08:29:36Z">
+        <test-method status="PASS" signature="product()[pri:3, instance:page.object.model.MyMainClass@b684286]" name="product" duration-ms="1" started-at="2018-01-18T08:23:39Z" finished-at="2018-01-18T08:23:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- product -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:page.object.model.MyMainClass@6e8dacdf]" name="teardown" is-config="true" duration-ms="2001" started-at="2018-01-17T08:29:36Z" finished-at="2018-01-17T08:29:38Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:page.object.model.MyMainClass@b684286]" name="teardown" is-config="true" duration-ms="2764" started-at="2018-01-18T08:23:39Z" finished-at="2018-01-18T08:23:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- page.object.model.MyMainClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

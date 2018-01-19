@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browserName" value="firefox"/>
   <test name="Test1">
-    <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.selenium.test.Selenium16Maven.GridClass"/>
+      <class name="page.object.model.MyMainClass"/>
     </classes>
   </test> <!-- Test1 -->
-  <test name="Test5">
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="com.selenium.test.Selenium16Maven.GridClass"/>
-    </classes>
-  </test> <!-- Test5 -->
-  <test name="Test5(failed)" parallel="tests">
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="com.selenium.test.Selenium16Maven.GridClass">
-        <methods>
-          <include name="method" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.selenium.test.Selenium16Maven.GridClass -->
-    </classes>
-  </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->
